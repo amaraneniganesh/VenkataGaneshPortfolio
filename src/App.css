@@ -1,0 +1,113 @@
+:root {
+  --primary: #8a2be2; /* Electric Purple */
+  --secondary: #00d4ff; /* Neon Blue */
+  --background: #111111;
+  --text: #b0c7ff; /* Soft Blue */
+  --heading: #dcd6ff; /* Light Purple */
+  /* --card-bg: rgba(25, 10, 50, 0.8); Deep Purple */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background: linear-gradient(135deg, #0a0f2f 0%, #1a0448 50%, #3e1b92 100%); */
+  /* background: #111111; */
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #a855f7, #38bdf8);
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--heading);
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-title span {
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.certificate-card {
+  background: linear-gradient(135deg, rgba(34, 0, 51, 0.85), rgba(0, 0, 100, 0.85));
+  border: 1px solid rgba(138, 43, 226, 0.5);
+  box-shadow: 0 4px 20px rgba(138, 43, 226, 0.4);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--secondary);
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.5);
+}
+
+.verify-link {
+  background: linear-gradient(45deg, rgba(138, 43, 226, 0.2), rgba(0, 212, 255, 0.2));
+  color: var(--heading);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.verify-link:hover {
+  background: linear-gradient(45deg, rgba(138, 43, 226, 0.4), rgba(0, 212, 255, 0.4));
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 16px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
