@@ -6,6 +6,30 @@ import './Projects.css';
 
 const projectsData = [
   {
+    title: 'Movie Blogs',
+    description: 'A platform to see movie blogs and tweets.',
+    image: 'https://amaraneniganesh.onrender.com/Blogsapp.png',
+    technologies: ['React', 'Node.js', 'MongoDB'],
+    github: 'https://github.com/amaraneniganesh/FrontendBlogs',
+    live: 'https://frontendblogs.onrender.com/',
+  },
+  {
+    title: 'Weather App',
+    description: 'A simple yet powerful tool that allows users to check real-time weather conditions With 3 days forcast and every hour parameters.',
+    image: 'weatherv.png',
+    technologies: ['React', 'CSS', 'JavaScript'],
+    github: 'https://github.com/amaraneniganesh/WeatherApp',
+    live: 'https://vaatavaranman.onrender.com/',
+  },
+  {
+    title: 'Streaming APP',
+    description: 'A React-based streaming app offering diverse movies with multi-audio support. Enjoy seamless streaming and smooth navigation.',
+    image: 'SsNF.png',
+    technologies: ['React', 'CSS', 'JavaScript'],
+    github: 'https://github.com/amaraneniganesh/StreamSphere-NF',
+    live: 'https://streamspherenf.vercel.app/',
+  },
+  {
     title: 'Social Media Video Downloader',
     description: 'The Social Media Downloader App is a versatile and user-friendly tool designed to help users easily download content from various social media platforms.',
     image: 'https://amaraneniganesh.onrender.com/SocialMEDIA.png',
@@ -28,14 +52,6 @@ const projectsData = [
     technologies: ['React', 'CSS', 'JavaScript'],
     github: 'https://github.com/amaraneniganesh/video-downloader',
     live: 'https://video-downloader-dzd2.onrender.com/',
-  },
-  {
-    title: 'Movie Blogs',
-    description: 'A platform to see movie blogs and tweets.',
-    image: 'https://amaraneniganesh.onrender.com/Blogsapp.png',
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    github: 'https://github.com/amaraneniganesh/FrontendBlogs',
-    live: 'https://frontendblogs.onrender.com/',
   },
   {
     title: 'Twitter Engagement Rate Calculator',
