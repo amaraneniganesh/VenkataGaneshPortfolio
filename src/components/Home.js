@@ -26,7 +26,7 @@ const Home = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="profile-image">
-            <img src="https://amaraneniganesh.onrender.com/LORD%20VENKANNA.png" alt="Profile" /> {/* Replace with your photo URL */}
+            <img src="https://amaraneniganesh.onrender.com/profile.png" alt="Profile" /> {/* Replace with your photo URL */}
           </div>
         </motion.div>
         
